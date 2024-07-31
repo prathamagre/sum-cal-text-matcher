@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    color: #1c5e59;
+}
+
+.sum-calculator{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0 0 10px ;
+    width: 500px;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(113, 153, 154);
+    border-radius: 10px;
+}
+
+h2{
+    color: #143d3a;
+}
+
+.input-box{
+    width: 200px;
+    margin: 20px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.sum{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: #143d3a;
+}
+
+.cal-btn{
+    margin: 20px;
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+}
