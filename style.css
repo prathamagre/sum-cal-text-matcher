@@ -1,6 +1,7 @@
 h1{
     text-align: center;
     color: #1c5e59;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .sum-calculator{
@@ -33,9 +34,19 @@ h2{
     color: #143d3a;
 }
 
-.cal-btn{
+.btn{
+    display: flex;
+}
+
+.action-btn{
     margin: 20px;
     width: 150px;
     height: 35px;
     border-radius: 50px;
+    cursor: pointer;
+}
+
+.action-btn:hover{
+    color: aliceblue;
+    background-color: #1c5e59;
 }
