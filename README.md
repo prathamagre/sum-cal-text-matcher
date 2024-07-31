@@ -11,7 +11,7 @@ A simple web-based application that allows users to calculate the sum of two num
 
 ## ScreenShot
 
-![ScreenShot of Sum Calculator](https://example.com/demo.gif)
+![ScreenShot of Sum Calculator]<img src="/Screenshot.png">
 
 ## Technologies Used
 
