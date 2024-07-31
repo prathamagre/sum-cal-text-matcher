@@ -13,12 +13,12 @@
     <h1><u>
         SUM CALCULATOR
     </u></h1>
-    <div class="sum-calculator">
+    <div class="tool-box">
         <h2>
             Sum of two numbers
         </h2>
-        <input type="text" placeholder="Enter number" class="input-box" id="input-num1">
-        <input type="text" placeholder="Enter number" class="input-box" id="input-num2">
+        <input type="text" placeholder="Enter number" class="input-box" id="input-num1" onkeyup="calSum()">
+        <input type="text" placeholder="Enter number" class="input-box" id="input-num2" onkeyup="calSum()">
         <p class="sum" id="sum"></p>
         <div class="btn">
             <button class="action-btn" onclick="calSum()">
@@ -29,13 +29,16 @@
             </button>
         </div>
     </div>
+
+    <hr>
+    
     <script>
         function calSum() {
 
             const num1Element = document.getElementById("input-num1")
             const num2Element = document.getElementById("input-num2")
 
-            const sum = parseInt(num1Element.value) + parseInt(num2Element.value)
+            const sum = parseInt(num1Element.value || 0) + parseInt(num2Element.value || 0)
 
             const sumElement = document.getElementById("sum")
 
